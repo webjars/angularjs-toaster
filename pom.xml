@@ -112,18 +112,26 @@
                     <version>2.5</version>
                 </plugin>
 
+
+                <plugin>
+                     <groupId>org.apache.maven.plugins</groupId>
+                     <artifactId>maven-deploy-plugin</artifactId>
+                     <version>2.7</version>
+                </plugin>
+
                 <plugin>
                     <groupId>org.sonatype.plugins</groupId>
                     <artifactId>nexus-staging-maven-plugin</artifactId>
-                    <version>1.5.1</version>
+                    <version>1.6.2</version>
                     <extensions>true</extensions>
-                    <configuration>
-                        <serverId>sonatype-nexus-staging</serverId>
-                        <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-                        <autoReleaseAfterClose>true</autoReleaseAfterClose>
-                    </configuration>
-                </plugin>
+                       <configuration>
+                          <serverId>sonatype-nexus-staging</serverId>
+                          <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                          <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                       </configuration>
+                 </plugin>
             </plugins>
+
         </build>
 
 </project>

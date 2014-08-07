@@ -24,7 +24,7 @@
             <requirejs>
                 {
                     "paths": {
-                        "angularjs-toaster": "angularjs-toaster"
+                        "angularjs-toaster": "toaster"
                     },
                     "shim": {
                         "angularjs-toaster": ["angular","angular-animate"]

@@ -11,7 +11,7 @@
         <packaging>jar</packaging>
         <groupId>org.webjars</groupId>
         <artifactId>angularjs-toaster</artifactId>
-        <version>0.4.8-SNAPSHOT</version>
+        <version>0.4.7-1-SNAPSHOT</version>
         <name>angularjs-toaster</name>
         <description>WebJar for angularjs-toaster</description>
         <url>http://webjars.org</url>
